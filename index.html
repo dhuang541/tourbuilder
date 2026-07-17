@@ -30,7 +30,7 @@
   }
   input, textarea, select, button { font-family: inherit; font-size: inherit; color: inherit; }
   button { cursor: pointer; background: none; border: none; }
-
+ 
   /* ---------- Top bar ---------- */
   .topbar {
     background: var(--bg);
@@ -80,7 +80,7 @@
     color: #fff; display: flex; align-items: center; justify-content: center;
     font-size: 13px; font-weight: 600;
   }
-
+ 
   /* ---------- Tabs ---------- */
   .tabs-row {
     background: var(--bg); display: flex; justify-content: center; gap: 4px;
@@ -97,7 +97,7 @@
     background: var(--navy); color: #fff; border-radius: 10px;
     font-size: 11px; padding: 1px 7px; margin-left: 6px;
   }
-
+ 
   /* ---------- Language chips ---------- */
   .lang-row {
     display: flex; justify-content: center; gap: 8px; padding: 12px 0 0;
@@ -109,10 +109,10 @@
   .chip:hover { border-color: var(--navy); color: var(--navy); }
   .chip.active { background: var(--navy); color: #fff; border-color: var(--navy); }
   .chip.dashed { border-style: dashed; }
-
+ 
   /* ---------- Canvas ---------- */
   .canvas { max-width: 770px; margin: 0 auto; padding: 14px 16px 120px; position: relative; }
-
+ 
   .card {
     background: var(--card); border: 1px solid var(--border); border-radius: 10px;
     margin-bottom: 14px; position: relative;
@@ -130,7 +130,7 @@
     font-size: 14px; color: var(--muted); padding: 6px 0; resize: none;
   }
   .meta-ids { margin-top: 12px; font-size: 11px; color: #9aa5b5; }
-
+ 
   .step-card { transition: box-shadow .15s; }
   .step-card.selected {
     border-left: 6px solid var(--accent);
@@ -138,14 +138,14 @@
   }
   .step-card.drag-over { outline: 2px dashed var(--accent); outline-offset: 3px; }
   .step-card.dragging { opacity: 0.45; }
-
+ 
   .drag-handle {
     display: flex; justify-content: center; padding: 4px 0 0;
     color: #b6bfcc; cursor: grab; font-size: 13px; letter-spacing: 3px;
     user-select: none; height: 18px; line-height: 10px;
   }
   .drag-handle:hover { color: var(--navy); }
-
+ 
   .card-body { padding: 6px 24px 8px; }
   .step-top-row { display: flex; gap: 14px; align-items: flex-start; }
   .step-title-input {
@@ -168,7 +168,7 @@
   .pill.stop { background: #e3f4e8; color: #1c7a3d; }
   .pill.wayfinding { background: #fff2dd; color: #a05c00; }
   .pill.feedback { background: #fbe7f1; color: #a12868; }
-
+ 
   /* ---------- Blocks ---------- */
   .block {
     border: 1px solid transparent; border-radius: 8px; padding: 10px 12px;
@@ -212,7 +212,7 @@
     border: none; background: transparent; width: 92%; padding: 1px 4px;
   }
   .instr-list input:focus { outline: none; background: #eef3fa; border-radius: 3px; }
-
+ 
   /* ---------- New block types & collapse ---------- */
   .block-type-tag {
     position: absolute; left: 12px; top: -7px; font-size: 10px; font-weight: 700;
@@ -279,7 +279,7 @@
   .pv-cmp-row span { padding: 8px 12px; font-size: 12.5px; border-bottom: 1px solid #eef2f7; }
   .pv-cmp-row span:first-child { border-right: 1px solid #eef2f7; }
   .pv-cmp-head span { background: var(--navy); color: #fff; font-weight: 700; font-size: 12px; }
-
+ 
   /* ---------- Audio row ---------- */
   .audio-row {
     display: flex; align-items: center; gap: 10px; margin: 10px 0 4px;
@@ -293,7 +293,7 @@
   .audio-progress { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); width: 0%; transition: width .2s linear; }
   .audio-time { font-size: 12px; color: var(--muted); font-family: monospace; }
   .audio-meta { font-size: 11px; color: #9aa5b5; white-space: nowrap; }
-
+ 
   /* ---------- Card footer ---------- */
   .card-footer {
     border-top: 1px solid var(--border); padding: 8px 16px;
@@ -316,7 +316,7 @@
     width: 52px; border: 1px solid var(--border); border-radius: 6px; padding: 5px 8px;
     font-size: 12px; text-align: center;
   }
-
+ 
   /* ---------- Floating toolbar ---------- */
   .side-toolbar {
     position: absolute; right: -62px; width: 48px;
@@ -338,7 +338,7 @@
     border-radius: 4px; white-space: nowrap;
   }
   @media (max-width: 940px) { .side-toolbar { right: 4px; flex-direction: row; width: auto; padding: 0 6px; position: fixed; bottom: 16px; top: auto !important; } .side-toolbar button[data-tip]:hover::after { display: none; } }
-
+ 
   /* ---------- Preview tab ---------- */
   .preview-wrap { display: flex; justify-content: center; padding: 24px 16px 80px; gap: 28px; flex-wrap: wrap; }
   .phone {
@@ -368,7 +368,7 @@
   .pv-feedback .stars { font-size: 22px; color:#c9b458; letter-spacing: 4px; margin-top:6px; cursor: pointer; }
   .preview-note { max-width: 300px; font-size: 13px; color: var(--muted); line-height: 1.6; padding-top: 12px; }
   .preview-note h3 { color: var(--navy); font-size: 15px; margin-bottom: 8px; }
-
+ 
   /* ---------- Settings tab ---------- */
   .settings-wrap { max-width: 770px; margin: 0 auto; padding: 20px 16px 80px; }
   .settings-card { background:#fff; border:1px solid var(--border); border-radius:10px; padding: 20px 24px; margin-bottom: 14px; }
@@ -381,7 +381,7 @@
     color: var(--navy); font-weight: 600; background: #fff;
   }
   .ghost-btn:hover { border-color: var(--navy); background: var(--tint); }
-
+ 
   /* ---------- Image upload & itinerary (editor) ---------- */
   .img-real { position: relative; border-radius: 8px; overflow: hidden; cursor: pointer; }
   .img-real img { width: 100%; max-height: 260px; object-fit: cover; display: block; border-radius: 8px; }
@@ -404,7 +404,33 @@
   }
   .itin-row.here .itin-thumb { background: var(--navy); color: #fff; }
   .itin-here { margin-left: auto; font-size: 11px; color: var(--accent); font-weight: 600; }
-
+  .hl-item-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .hl-icon-select {
+    border: 1px solid var(--border); border-radius: 6px; padding: 7px 6px; font-size: 13px;
+    background: #fff; width: 130px; flex-shrink: 0;
+  }
+  .hl-text-input {
+    flex: 1; border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 13px;
+  }
+  .hl-text-input:focus { outline: none; border-color: var(--navy); }
+  .hl-img-btn {
+    border: 1px dashed var(--border); border-radius: 6px; padding: 6px 9px; font-size: 12px;
+    color: var(--muted); flex-shrink: 0;
+  }
+  .hl-img-btn:hover { border-color: var(--navy); color: var(--navy); }
+  .hl-thumb {
+    width: 34px; height: 34px; border-radius: 6px; object-fit: cover; cursor: pointer;
+    border: 1px solid var(--border); flex-shrink: 0;
+  }
+  .pv-hl-list { margin-top: 6px; }
+  .pv-hl-row { display: flex; align-items: center; gap: 10px; padding: 6px 0; }
+  .pv-hl-icon {
+    width: 38px; height: 38px; border-radius: 8px; background: #ece7df; flex-shrink: 0;
+    display: inline-flex; align-items: center; justify-content: center; font-size: 18px;
+  }
+  .pv-hl-thumb { width: 46px; height: 46px; border-radius: 8px; object-fit: cover; flex-shrink: 0; }
+  .pv-hl-text { font-size: 14.5px; color: var(--text); line-height: 1.4; }
+ 
   /* ---------- App-style phone preview ---------- */
   .serif { font-family: Georgia, "Times New Roman", serif; }
   .app-phone { background: #f7f4ef; height: 760px; }
@@ -472,7 +498,7 @@
   }
   .app-continue:hover { background: var(--navy-soft); }
   .app-lock-note { text-align: center; font-size: 14px; color: var(--navy); padding: 6px 0 2px; }
-
+ 
   /* ---------- Toast ---------- */
   .toast {
     position: fixed; bottom: 24px; left: 24px; background: #222; color: #fff;
@@ -481,7 +507,7 @@
     animation: toast-in .2s ease;
   }
   @keyframes toast-in { from { transform: translateY(12px); opacity: 0; } to { transform: none; opacity: 1; } }
-
+ 
   /* ---------- Admin shell ---------- */
   .admin-shell { display: flex; height: calc(100vh - 27px); overflow: hidden; }
   .admin-side {
@@ -530,7 +556,7 @@
   .prop-links span:hover { text-decoration: underline; }
   .crumb-row { padding: 12px 24px 0; font-size: 13px; color: var(--muted); background: var(--tint); }
   .crumb-row b { color: var(--navy); }
-
+ 
   /* ---------- Demo banner ---------- */
   .demo-banner {
     background: var(--navy); color: #fff; text-align: center; font-size: 12px; padding: 5px;
@@ -542,46 +568,49 @@
 <body>
 <div class="demo-banner">DEMO MOCK — Aigentless Tour Builder redesign concept · <b>not connected to live data</b></div>
 <div id="root"></div>
-
+ 
 <script type="text/babel" data-presets="env,react">
 const { useState, useEffect, useRef, useCallback } = React;
-
+ 
 /* ============================================================
    Seed data — mirrors the current "Master Tour" for The House
    ============================================================ */
 let _id = 100;
 const uid = () => "id" + (_id++);
-
+ 
 const rt = (heading, body) => ({ id: uid(), type: "richtext", heading: heading || "", body: body || "" });
 const img = (caption) => ({ id: uid(), type: "image", caption: caption || "", src: "" });
 const video = () => ({ id: uid(), type: "video", caption: "" });
 const code = (label) => ({ id: uid(), type: "access_code", label: label || "", value: "4 8 2 9" });
 const progress = (title) => ({ id: uid(), type: "progress", title: title || "" });
-const highlight = (title, items) => ({ id: uid(), type: "highlight", title: title || "", items: items || [""] });
+const hlItem = () => ({ text: "", icon: "✨ Sparkle", src: "" });
+const highlight = (title) => ({ id: uid(), type: "highlight", title: title || "", items: [hlItem()] });
+const HL_ICONS = ["✨ Sparkle","🍳 Kitchen","🏋️ Gym","🧘 Yoga","🏊 Pool","🛁 Bath","🛏 Bed","🏀 Basketball","🚲 Bike","🐾 Pet Friendly","📶 WiFi","🅿️ Parking","🌇 Balcony","🧺 Laundry","☕ Coffee","🏖 Beach","🌳 Outdoors","🔒 Secure","📦 Packages","⭐ Star"];
+const iconOf = v => (v || "✨").split(" ")[0];
 const comparison = () => ({ id: uid(), type: "comparison", colA: "", colB: "", rows: [["", ""]] });
 const dyncomp = () => ({ id: uid(), type: "dyncomp", unitA: "", unitB: "" });
 const mapBlock = () => ({ id: uid(), type: "map", label: "" });
 const matterport = () => ({ id: uid(), type: "matterport", label: "" });
-
+ 
 const BLOCK_TYPES = [
   { key: "richtext",   label: "Rich Text",          icon: "T",  make: () => rt("", "") },
   { key: "image",      label: "Image",              icon: "🖼️", make: () => img("") },
   { key: "video",      label: "Video",              icon: "▶️", make: () => video() },
   { key: "access_code",label: "Access Code",        icon: "🔑", make: () => code("") },
   { key: "progress",   label: "Progress List",      icon: "☑️", make: () => progress("") },
-  { key: "highlight",  label: "Highlight List",     icon: "✨", make: () => highlight("", [""]) },
+  { key: "highlight",  label: "Highlight List",     icon: "✨", make: () => highlight("") },
   { key: "comparison", label: "Comparison",         icon: "⚖️", make: () => comparison() },
   { key: "dyncomp",    label: "Dynamic Comparison", icon: "⚡", make: () => dyncomp() },
   { key: "map",        label: "Map",                icon: "🗺️", make: () => mapBlock() },
   { key: "matterport", label: "Matterport 3D",      icon: "🧊", make: () => matterport() },
 ];
 const blockLabel = t => (BLOCK_TYPES.find(b => b.key === t) || {}).label || t;
-
+ 
 /* Fresh, blank tour — one empty step card, like a new Google Form */
 const seedSteps = [
   { id: uid(), title: "", floor: 0, type: "stop", feedback: "", audio: 0, blocks: [ rt("", "") ] },
 ];
-
+ 
 const TYPE_META = {
   stop:       { label: "Stop",       icon: "📍" },
   access:     { label: "Access",     icon: "🔑" },
@@ -589,22 +618,41 @@ const TYPE_META = {
 };
 const fmt = s => Math.floor(s/60) + ":" + String(s%60).padStart(2,"0");
 const deep = o => JSON.parse(JSON.stringify(o));
-
+ 
 /* ============================================================
    Blocks (edit mode)
    ============================================================ */
-function renderListItems(block, set, placeholder) {
-  return block.items.map((it, i) => (
-    <li key={i}>
-      <input placeholder={placeholder} value={it} onChange={e => {
-        const items = block.items.slice(); items[i] = e.target.value; set({ items });
-      }}/>
-      {block.items.length > 1 &&
-        <button className="row-x" title="Remove" onClick={() => set({ items: block.items.filter((_, k) => k !== i) })}>×</button>}
-    </li>
-  ));
+/* One highlight item row: icon picker + text + image upload */
+function HighlightItemRow({ item, onChange, onRemove, canRemove }) {
+  const fileRef = useRef(null);
+  const onFile = e => {
+    const f = e.target.files && e.target.files[0];
+    if (!f) return;
+    const reader = new FileReader();
+    reader.onload = ev => onChange({ ...item, src: ev.target.result });
+    reader.readAsDataURL(f);
+    e.target.value = "";
+  };
+  return (
+    <div className="hl-item-row">
+      <select className="hl-icon-select" title="Icon" value={item.icon}
+              onChange={e => onChange({ ...item, icon: e.target.value })}>
+        {HL_ICONS.map(ic => <option key={ic} value={ic}>{ic}</option>)}
+      </select>
+      <input className="hl-text-input" placeholder='e.g. "You love to cook"' value={item.text}
+             onChange={e => onChange({ ...item, text: e.target.value })}/>
+      <input type="file" accept="image/*" ref={fileRef} style={{display:"none"}} onChange={onFile}/>
+      {item.src ? (
+        <img className="hl-thumb" src={item.src} alt="" title="Click to replace image"
+             onClick={() => fileRef.current.click()}/>
+      ) : (
+        <button className="hl-img-btn" title="Add image" onClick={() => fileRef.current.click()}>🖼️＋</button>
+      )}
+      {canRemove && <button className="row-x" title="Remove" onClick={onRemove}>×</button>}
+    </div>
+  );
 }
-
+ 
 function BlockEditor({ block, onChange, onDelete, onDuplicate, dragProps, dragState, allSteps, stepIndex }) {
   const cls = "block" + (dragState === "dragging" ? " block-dragging" : dragState === "over" ? " block-over" : "");
   const set = patch => onChange({ ...block, ...patch });
@@ -667,15 +715,18 @@ function BlockEditor({ block, onChange, onDelete, onDuplicate, dragProps, dragSt
           <input className="rt-heading" style={{fontSize:15}}
                  placeholder='e.g. "Next Level Living: Tour Itinerary"'
                  value={block.title} onChange={e => set({ title: e.target.value })}/>
-          <div className="itin-note">☑️ Auto-populated from your tour steps — reorder steps to change the list</div>
+          <div className="itin-note">☑️ Auto-populated from your Stop & Access steps (wayfinding excluded) — reorder steps to change the list</div>
           <div className="itin-list">
-            {(allSteps || []).map((s, i) => (
-              <div className={"itin-row" + (i === stepIndex ? " here" : "")} key={s.id}>
-                <span className="itin-thumb">{i === stepIndex ? "●" : i}</span>
-                <span>{s.title || "Untitled step"}</span>
-                {i === stepIndex && <span className="itin-here">You are here</span>}
-              </div>
-            ))}
+            {(allSteps || []).filter(s => s.type !== "wayfinding").map((s, i) => {
+              const here = allSteps[stepIndex] && s.id === allSteps[stepIndex].id;
+              return (
+                <div className={"itin-row" + (here ? " here" : "")} key={s.id}>
+                  <span className="itin-thumb">{here ? "●" : i}</span>
+                  <span>{s.title || "Untitled step"}</span>
+                  {here && <span className="itin-here">You are here</span>}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
@@ -684,9 +735,15 @@ function BlockEditor({ block, onChange, onDelete, onDuplicate, dragProps, dragSt
           <input className="rt-heading" style={{fontSize:15}}
                  placeholder='e.g. "The 24/7 Fitness Center offers…" or "You’ll love this unit if…"'
                  value={block.title} onChange={e => set({ title: e.target.value })}/>
-          <ul className="instr-list hl-list">{renderListItems(block, set, 'e.g. "You love to cook"')}</ul>
+          <div style={{marginTop:6}}>
+            {block.items.map((it, i) => (
+              <HighlightItemRow key={i} item={it} canRemove={block.items.length > 1}
+                onChange={ni => { const items = block.items.slice(); items[i] = ni; set({ items }); }}
+                onRemove={() => set({ items: block.items.filter((_, k) => k !== i) })}/>
+            ))}
+          </div>
           <button style={{color:"var(--accent)", fontSize:12, padding:"4px 0"}}
-                  onClick={() => set({ items: [...block.items, ""] })}>+ Add item</button>
+                  onClick={() => set({ items: [...block.items, hlItem()] })}>+ Add item</button>
         </div>
       )}
       {block.type === "comparison" && (
@@ -743,7 +800,7 @@ function BlockEditor({ block, onChange, onDelete, onDuplicate, dragProps, dragSt
     </div>
   );
 }
-
+ 
 /* ============================================================
    Audio row with fake playback
    ============================================================ */
@@ -768,14 +825,14 @@ function AudioRow({ seconds, onRegen }) {
     </div>
   );
 }
-
+ 
 /* ============================================================
    Step card
    ============================================================ */
 function StepCard({ step, index, selected, onSelect, onChange, onDup, onDelete, dnd, toast, cardRef, allSteps }) {
   const set = patch => onChange({ ...step, ...patch });
   const setBlocks = blocks => set({ blocks });
-
+ 
   // block-level drag
   const [blockDrag, setBlockDrag] = useState(null);
   const [blockOver, setBlockOver] = useState(null);
@@ -786,10 +843,10 @@ function StepCard({ step, index, selected, onSelect, onChange, onDup, onDelete, 
     b.splice(to, 0, m);
     setBlocks(b);
   };
-
+ 
   const cls = "card step-card" + (selected ? " selected" : "") +
     (dnd.dragIndex === index ? " dragging" : "") + (dnd.overIndex === index && dnd.dragIndex !== index ? " drag-over" : "");
-
+ 
   return (
     <div ref={cardRef} className={cls} onClick={() => onSelect(step.id)}
          onDragOver={e => { e.preventDefault(); dnd.setOver(index); }}
@@ -824,7 +881,7 @@ function StepCard({ step, index, selected, onSelect, onChange, onDup, onDelete, 
               {Object.entries(TYPE_META).map(([k, v]) => <option key={k} value={k}>{v.icon} {v.label}</option>)}
             </select>
           </div>
-
+ 
           <div style={{marginTop: 8}}>
             {step.blocks.map((b, bi) => (
               <BlockEditor key={b.id} block={b} allSteps={allSteps} stepIndex={index}
@@ -848,10 +905,10 @@ function StepCard({ step, index, selected, onSelect, onChange, onDup, onDelete, 
               />
             ))}
           </div>
-
+ 
           <AddBlockMenu onAdd={make => setBlocks([...step.blocks, make()])}/>
         </div>
-
+ 
         <div className="card-footer">
           <button className="icon-btn" data-tip="Duplicate step" onClick={e => { e.stopPropagation(); onDup(); }}>⧉</button>
           <button className="icon-btn" data-tip="Delete step" style={{color:"var(--danger)"}}
@@ -862,7 +919,7 @@ function StepCard({ step, index, selected, onSelect, onChange, onDup, onDelete, 
     </div>
   );
 }
-
+ 
 /* ---- "+ Add block" dropdown with all block types ---- */
 function AddBlockMenu({ onAdd }) {
   const [open, setOpen] = useState(false);
@@ -890,12 +947,12 @@ function AddBlockMenu({ onAdd }) {
     </div>
   );
 }
-
+ 
 /* ============================================================
    Phone preview
    ============================================================ */
 const AI_PROMPTS = ["Are there other units in the community…", "Is this apartment pet friendly…", "When was this last renovated…", "What utilities are included…"];
-
+ 
 function Preview({ steps, tourTitle }) {
   const [i, setI] = useState(0);
   const [aiIdx, setAiIdx] = useState(0);
@@ -918,7 +975,7 @@ function Preview({ steps, tourTitle }) {
             <span>⎋ Leave</span>
           </span>
         </div>
-
+ 
         {/* Step map */}
         <div className="step-map">
           {steps.map((s, k) => (
@@ -928,7 +985,7 @@ function Preview({ steps, tourTitle }) {
             </button>
           ))}
         </div>
-
+ 
         {/* Audio bar */}
         <div className="app-audio">
           <span>▷</span><span>⏮</span>
@@ -936,7 +993,7 @@ function Preview({ steps, tourTitle }) {
           <span>🔊</span>
           <span className="aa-toggle"><span/></span>
         </div>
-
+ 
         {/* Body */}
         <div className="phone-body app-body">
           {step.blocks.map(b => (
@@ -964,22 +1021,34 @@ function Preview({ steps, tourTitle }) {
                 <div>
                   <div className="pv-h serif">{b.title || "Tour Itinerary"}</div>
                   <div className="pv-itin">
-                    {steps.map((s, k) => (
-                      <div className={"pv-itin-row" + (k === i ? " here" : "")} key={s.id}>
-                        <span className="pv-itin-thumb">{(() => { const im = s.blocks.find(x => x.type === "image" && x.src); return im ? <img src={im.src} alt=""/> : "🏢"; })()}</span>
-                        <span className="pv-itin-name serif">
-                          {k === i && <span className="pv-dot">● </span>}{s.title || "Untitled step"}
-                          {k === i && <div className="pv-itin-here">You are here</div>}
-                        </span>
-                      </div>
-                    ))}
+                    {steps.filter(s => s.type !== "wayfinding").map(s => {
+                      const here = s.id === step.id;
+                      return (
+                        <div className={"pv-itin-row" + (here ? " here" : "")} key={s.id}>
+                          <span className="pv-itin-thumb">{(() => { const im = s.blocks.find(x => x.type === "image" && x.src); return im ? <img src={im.src} alt=""/> : "🏢"; })()}</span>
+                          <span className="pv-itin-name serif">
+                            {here && <span className="pv-dot">● </span>}{s.title || "Untitled step"}
+                            {here && <div className="pv-itin-here">You are here</div>}
+                          </span>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               )}
               {b.type === "highlight" && (
                 <div className="pv-highlight">
                   <div className="pv-h serif" style={{fontSize:17}}>{b.title || "Highlights"}</div>
-                  <ul>{b.items.filter(Boolean).map((it, k) => <li key={k}>✨ {it}</li>)}</ul>
+                  <div className="pv-hl-list">
+                    {b.items.filter(it => it.text || it.src).map((it, k) => (
+                      <div className="pv-hl-row" key={k}>
+                        {it.src
+                          ? <img className="pv-hl-thumb" src={it.src} alt=""/>
+                          : <span className="pv-hl-icon">{iconOf(it.icon)}</span>}
+                        <span className="pv-hl-text">{it.src && <span style={{marginRight:6}}>{iconOf(it.icon)}</span>}{it.text}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
               {b.type === "comparison" && (
@@ -1004,7 +1073,7 @@ function Preview({ steps, tourTitle }) {
             </div>
           ))}
         </div>
-
+ 
         {/* Leasa AI + continue */}
         <div className="app-foot">
           <div className="ai-pill">
@@ -1023,7 +1092,7 @@ function Preview({ steps, tourTitle }) {
           )}
         </div>
       </div>
-
+ 
       <div className="preview-note">
         <h3>Live Preview</h3>
         <p>This is what the prospect sees during the self-guided tour — step map up top, audio player, Leasa AI at the bottom, and the continue button. It updates in real time as you edit steps.</p>
@@ -1032,7 +1101,7 @@ function Preview({ steps, tourTitle }) {
     </div>
   );
 }
-
+ 
 /* ============================================================
    Settings tab
    ============================================================ */
@@ -1079,7 +1148,7 @@ function Toggle({ initial }) {
   const [on, setOn] = useState(initial);
   return <div className={"switch" + (on ? " on" : "")} onClick={() => setOn(!on)}/>;
 }
-
+ 
 /* ============================================================
    App
    ============================================================ */
@@ -1093,7 +1162,7 @@ function App() {
   const [selectedId, setSelectedId] = useState(seedSteps[0].id);
   const [toastMsg, setToastMsg] = useState(null);
   const [saved, setSaved] = useState(true);
-
+ 
   // undo / redo
   const history = useRef([deep(seedSteps)]);
   const hIndex = useRef(0);
@@ -1115,9 +1184,9 @@ function App() {
     window.addEventListener("keydown", h);
     return () => window.removeEventListener("keydown", h);
   }, []);
-
+ 
   const toast = msg => { setToastMsg(msg); clearTimeout(toast._t); toast._t = setTimeout(() => setToastMsg(null), 2600); };
-
+ 
   // step drag & drop
   const [dragIndex, setDragIndex] = useState(null);
   const [overIndex, setOverIndex] = useState(null);
@@ -1134,7 +1203,7 @@ function App() {
       setDragIndex(null); setOverIndex(null);
     },
   };
-
+ 
   // floating toolbar position
   const canvasRef = useRef(null);
   const cardRefs = useRef({});
@@ -1145,10 +1214,10 @@ function App() {
       setToolbarTop(el.offsetTop + 8);
     }
   }, [selectedId, steps, tab]);
-
+ 
   const selIdx = steps.findIndex(s => s.id === selectedId);
   const updateStep = ns => commit(steps.map(s => s.id === ns.id ? ns : s));
-
+ 
   const addStep = () => {
     const ns = { id: uid(), title: "", floor: 0, type: "stop", feedback: "", audio: 0,
       blocks: [rt("", "")] };
@@ -1160,10 +1229,10 @@ function App() {
     const st = deep(steps[selIdx]); st.blocks.push(block);
     updateStep(st);
   };
-
+ 
   const buildings = ["12 North","140 S Clarkson","1515 Flats","1537 N Orleans","25 East","25Twenty","270 Lincoln","499 President","626 On The Park","Post Chicago"];
   const adminLinks = ["User Management","City Management","Device Management","Validation Dashboard","App Translations","Feature Flags","Release Notes"];
-
+ 
   return (
     <div className="admin-shell">
       {/* ===== Sidebar ===== */}
@@ -1184,7 +1253,7 @@ function App() {
         <select className="env-select"><option>Production</option><option>Staging</option><option>Development</option></select>
         <div className="redacted-row"><input type="checkbox"/> Redacted Mode</div>
       </aside>
-
+ 
       {/* ===== Main ===== */}
       <main className="admin-main">
         <div className="prop-head">
@@ -1201,7 +1270,7 @@ function App() {
           </div>
         </div>
         <div className="crumb-row">All Tours / <b>{tourTitle || "Untitled tour"}</b></div>
-
+ 
       {/* Top bar */}
       <div className="topbar">
         <AigentlessMark/>
@@ -1218,7 +1287,7 @@ function App() {
         <button className="publish-btn" onClick={() => toast("Tour published! Live for all prospects.")}>Publish</button>
         <div className="avatar">DH</div>
       </div>
-
+ 
       {/* Tabs */}
       <div className="tabs-row">
         <button className={"tab" + (tab === "build" ? " active" : "")} onClick={() => setTab("build")}>
@@ -1227,7 +1296,7 @@ function App() {
         <button className={"tab" + (tab === "preview" ? " active" : "")} onClick={() => setTab("preview")}>Preview</button>
         <button className={"tab" + (tab === "settings" ? " active" : "")} onClick={() => setTab("settings")}>Settings</button>
       </div>
-
+ 
       {tab === "build" && (
         <div>
           <div className="lang-row">
@@ -1237,7 +1306,7 @@ function App() {
             <button className="chip dashed" onClick={() => setTab("settings")}>+ Add language</button>
             <button className="chip" onClick={() => toast("Resyncing all languages & audio…")}>🔄 Resync all</button>
           </div>
-
+ 
           <div className="canvas" ref={canvasRef}>
             {/* Header card */}
             <div className="card header-card">
@@ -1246,7 +1315,7 @@ function App() {
                 <textarea className="tour-desc-input" rows="2" placeholder="Tour description" value={tourDesc} onChange={e => setTourDesc(e.target.value)}/>
               </div>
             </div>
-
+ 
             {/* Step cards */}
             {steps.map((s, i) => (
               <StepCard key={s.id} step={s} index={i} allSteps={steps}
@@ -1263,7 +1332,7 @@ function App() {
                 dnd={dnd} toast={toast}
               />
             ))}
-
+ 
             {/* Floating toolbar */}
             <div className="side-toolbar" style={{top: toolbarTop}}>
               <button data-tip="Add step" onClick={addStep}>⊕</button>
@@ -1278,16 +1347,16 @@ function App() {
           </div>
         </div>
       )}
-
+ 
       {tab === "preview" && <Preview steps={steps} tourTitle={tourTitle}/>}
       {tab === "settings" && <Settings langs={langs} setLangs={setLangs} toast={toast}/>}
-
+ 
       {toastMsg && <div className="toast">{toastMsg}</div>}
       </main>
     </div>
   );
 }
-
+ 
 /* Aigentless logo mark (building outline) */
 function AigentlessMark() {
   return (
@@ -1299,8 +1368,9 @@ function AigentlessMark() {
     </svg>
   );
 }
-
+ 
 ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
 </script>
 </body>
 </html>
+ 
